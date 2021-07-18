@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    box-sizing: border-box;
+}
+header, section{
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+    --Roboto:"Roboto",cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to left,#cc2b5e , #753a88);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+.icon a .fab:hover{
+  color:black;
+ font-size: 20px;
+}
+.ta{
+ font-family:var(--Rubik) ;
+    color: white;
+}
+.tarn{
+ font-family:var(--Roboto) ;
+   font-weight: bold;
+    font-size: 50px;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.ser{
+    padding-top: 10rem;
+font-family: var(--Roboto);
+}
+.serv{
+color: black;
+font-family: var(--Rubik);
+}
+.tarun{
+ font-family:var(--Patua);
+    color: white;
+    text-decoration: underline solid;
+    letter-spacing: 2px;
+}
+.offset:before{
+    display: block;
+    content="";
+    height= 10rem;
+}
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+header{
+    background: #cc2b5e , #753a88;
+    background: var(--bggradient);
+}
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+}
+header .nav-link:hover {
+  color: black;
+}
+header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+}
+header .navbar-brand:hover {
+  color: black;
+}
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+header .row .col-md-5 img {
+  width: 100%;
+}
+/*----section1----*/
+.section-1{
+    padding-top: 100px;
+padding-bottom: 100px;
+}
+.section-1 .row .col-md-6 .about img {
+  opacity: 0.8;
+  width: 80%;
+  border-radius: 0.2em;
+}
+.section-1 .row .col-md-6:last-child {
+  position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+  position: absolute;
+  top: 7vmin;
+  left: -18vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  padding: 13vmin 5vmin 20vmin 10vmin;
+box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: var(--Rubik);
+  z-index: 1;
+    padding-bottom: 50px;
+}
+.section-1 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+.section-1 .row .col-md-6 .panel p{
+    font-size: 1em;
+    padding-bottom: 50px;
+}
+
+
+/*----section serivces----*/
+.section-4 .container h1 {
+  font-size: 6vmin;
+  padding-top: 40px;
+    padding-bottom: 10px;
+}
+.section-4 .services {
+  padding-top: 5px;
+    padding-bottom: 40px;
+}
+.section-4 .card {
+  width: 22em;
+  margin-top: 20px;
+}
+.section-4 .card .card-text {
+  padding: 0.5em;
+}
+.section-4 .card-body p{
+    font-family: var(--Patua);
+}
+.section-4 .card-body .card-title{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: var(--Lobster);
+}
+.border-radius {
+  border-radius: 340px;
+  width: 60%;
+}
+.servicess{
+    font-family: var(--Rubik);
+    font-size: 20px;
+    color: black;
+    font-weight: 10px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.815);
+  z-index: 9999;
+  transition: all 1.5s ease;
+}
+.skill{
+    padding-top: 12rem;
+}
+.skillfont{
+ font-family: var(--Rubik);
+    font-weight: bold;
+    text-decoration:black underline;
+}
+.skillback{
+    background: rgba(248,252,253,0.973);
+}
+.parastyle{
+    font-family: var(--Roboto);
+}
+.parastylehtml{
+    font-size: medium;
+}
+.parasize{
+    font-size: small;
+}
+.marcss{
+    margin-bottom: 20px;
+}
+.cardstyle{
+    width: 22em;
+  margin-top: 20px;
+}
+.skil{
+    font-family: var(--Roboto);
+padding-top: 15px;
+    padding-bottom: 15px;
+}
+.cont{
+    padding-top: #px;
+}
+.CONtact{
+    font-family: var(--Rubik);
+    padding-top: 11rem;
+}
+.name{font-family: var(--Rubik);
+}
+.email{font-family: var(--Rubik);
+}
+.mymessege{font-family: var(--Rubik);
+}
+.foooooter{
+    background:var(--bggradient) ;
+}
+.connect{
+    font-family: var(--Roboto);
+    font-weight: bold;
+
+ }
+.icon a .fab{
+     color:#fff;
+    font-size: 20px;
+}
+.ab{
+    color: white;
+    font-family: var(--Roboto);
+    text-decoration: white underline;
+}
+.ab h6 :before{
+    content:' ';
+        position:absolute;
+        bottom:-5px;
+        left:0;
+        width:50px;
+        height:2px;
+        background:white;
+}
+.at{
+    color: white;
+    font-family: var(--Rubik);
+}
+.links {
+color: white;
+    font-family: var(--Roboto);
+    text-decoration: white underline;
+}
+
+.usefull a {
+    color: white;
+    font-family: var(--Rubik);
+}
+.reach{
+color: white;
+    font-family: var(--Roboto);
+    text-decoration: white underline;
+}
+.raechicon{
+     color: white;
+    font-family: var(--Rubik);
+}
+.copyright{
+     color: white;
+    font-family: var(--Rubik);
+}
+.copyright a{
+    color: white;
+}
+.projectstyle{
+    font-family: var(--Roboto) ;
+    font-weight: bold;
+font-size: 35px;
+    text-align: center;
+text-decoration: black underline solid;
+    margin-top:130px;
+}
+.promar{
+    padding-top: 0px;
+}
+.padd1{
+    padding-left: 150px;
+}
+.padd2{
+    padding-right: 200px;
+padding-left: 100px;
+}
+.res{
+   font-family: var(--Roboto) ;
+    font-weight: bold;
+font-size: 35px;
+}
+.respadd{
+    padding-top: 180px;
+}
+#projects{
+    max-width: 1170px;
+    width: auto;
+    margin: 0 auto;
+}
