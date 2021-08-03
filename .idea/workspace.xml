@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f731df6d-9c57-4a80-891f-45118a9e604d" name="Default Changelist" comment="TARUJN">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TARUN SINGHAL.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/TARUN SINGHAL.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,8 @@
       <updated>1626629733411</updated>
       <workItem from="1626629735569" duration="901000" />
       <workItem from="1626633960571" duration="47000" />
-      <workItem from="1626634219923" duration="446000" />
+      <workItem from="1626634219923" duration="739000" />
+      <workItem from="1627989100493" duration="153000" />
     </task>
     <task id="LOCAL-00001" summary="TARUJN">
       <created>1626630454824</created>
@@ -65,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626634663924</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TARUJN">
+      <created>1626634713431</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626634713431</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
